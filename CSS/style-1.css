@@ -1,0 +1,151 @@
+/**Header**/
+header{
+    background-color: rgba(50, 60, 83, 1);
+}
+
+h1{
+    font-family:"Playfair Display"  ;
+    font-size: 85px;
+    text-align: left;
+    line-height: 90px;
+    color: #fff;
+    float: left;
+}
+
+.logo{
+    width: 136px;
+    height: 109px;
+}
+
+#container ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+    font-family: "Playfair Display";
+    margin-top: -70px;
+  }
+  #container ul li {
+    display: inline;
+  }
+  #container ul li a {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #fff;
+    background-color: #1c87c9;
+  }
+  #container ul li a:hover {
+    color: #fff;
+    background-color: #369;
+  }
+
+  /**Premier bloc**/
+
+  .premier-bloc{
+    background-color:rgba(50, 60, 83, 1); ;
+  }
+
+  .premier-bloc>p{
+    color: #fff;
+    font-family: "Alice";
+    float: left;
+  }
+
+  body{
+    background-color: rgba(50, 60, 83, 1);
+  }
+
+  button {
+    background: linear-gradient(#B1488E, #486CB1);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Playfair Display";
+    margin-top: 475px;
+  }
+  button:hover{
+    background: rgb(25, 67, 116);
+}
+
+  .Cerf{
+    width: 800px;
+    height: 800px;
+    margin-left: 600px;
+    margin-top: -500px;
+  }
+
+  /**Deuxième bloc**/
+  .deuxieme-bloc{
+    background-color: #B1488E;
+  }
+
+  .deuxieme-bloc>h2{
+    font-family: "Playfair Display";
+    font-size: 65px;
+  }
+
+  .deuxieme-bloc>p{
+    font-family: "Alice";
+    font-size: 16px;
+    color: #fff;
+  }
+ 
+  .deuxieme-bloc>img{
+    width: 822px;
+    height: 885px;
+    float: left;
+  }
+  /**Troisième bloc**/
+  .troisieme-bloc>h2{
+    font-family: "Playfair Display";
+    font-size: 65px;
+    color: #fff;
+  }
+  .troisieme-bloc>#chapeau>img{
+    width: 417px;
+    height: 520px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .troisieme-bloc>#chapeau>h3{
+    font-family: "Playfair Display";
+    font-size: 22px;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .troisieme-bloc>#chapeau>p{
+    font-family: "Alice";
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+  }
+  .troisieme-bloc>#deux>img{
+    width: 417px;
+    height: 520px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .troisieme-bloc>#deux>h3{
+    font-family: "Playfair Display";
+    font-size: 22px;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .troisieme-bloc>#deux>p{
+
+  }
+
+

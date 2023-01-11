@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+}
+
+/**Header**/
+#container ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+    margin-top: -48px;
+    margin-right: 50px;
+}
+#container ul li{
+    display: inline;
+}
+#container li a {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/**Section un**/
+.section-un{
+    background-color: #323C53;
+    width: 100%;
+    height: 934px;
+    margin-top: 55px;
+}
+.section-un h1{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 85px;
+    color: white;
+    padding-top: 160px;
+    margin-left: 50px;
+}
+.section-un p{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.section-un img{
+    width: 754px;
+    height: 699px;
+    margin-left: 783px;
+    margin-top: -478px;
+}
+
+/**Section deux**/
+.section-deux{
+    background-color: #B1488E;
+    margin-top: -20px;
+    padding-bottom: 218px;
+}
+.section-deux #jupiter{
+    width: 412px;
+    height: 698px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.section-deux #equipe{
+    width: 412px;
+    height: 468px;
+    margin-top: 99px;
+    margin-left: 64px;
+    z-index: 2;
+    position: absolute;
+}
+.section-deux h2{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    color: black;
+    margin-top: -816px;
+    margin-left: 1007px;
+}
+.section-deux #p-un{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-left: 1007px;
+    margin-top: 50px;
+}
+.section-deux #p-deux{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-left: 1007px;
+    margin-top: 20px;
+}
+.section-deux .ketty #img-ketty{
+    width: 63px;
+    height: 63px;
+    margin-top: 50px;
+    margin-left: 1003px;
+}
+.section-deux .ketty #p-trois{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin-left: 1077px;
+    margin-top: -35px;
+}
+.section-deux .ketty #p-quatre{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-left: 1003px;
+    margin-top: 46px;
+}
+.section-deux .illustratrice #business{
+    width: 63px;
+    height: 63px;
+    margin-top: 64px;
+    margin-left: 1003px;
+}
+.section-deux .illustratrice #p-cinq{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin-left: 1077px;
+    margin-top: -35px;
+}
+.section-deux .illustratrice #p-six{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-left: 1003px;
+    margin-top: 46px;
+}
+
+/**Section trois**/
+.section-trois{
+    background-color: #323C53;
+    width: 100%;
+    height: 1331px;
+    margin-top: -1px;
+}
+.section-trois img{
+    width: 440px;
+    height: 293px;
+    margin-top: 50px;
+    margin-left: 587px;
+}
+.section-trois h2{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.section-trois .tableau-un #legend-un{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.section-trois .tableau-un form{
+    margin-top: 50px;
+    margin-left: 636px;
+    z-index: 2;
+    position: absolute;
+}
+.section-trois .tableau-un table #nom{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.section-trois .tableau-un table #prenom{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.section-trois .tableau-un table #email{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.section-trois .tableau-un table #phone{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.section-trois .tableau-un table input{
+    padding: 0.7rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+.section-trois .tableau-deux form{
+    margin-top: 331px;
+    margin-left: 537px;
+    z-index: 2;
+    position: absolute;
+}
+.section-trois .tableau-deux #legend-deux{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.section-trois .tableau-deux table #message{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.section-trois .tableau-deux table textarea{
+    padding: 0.7rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+.section-trois #butn-un{
+    list-style-type: none;
+    background: linear-gradient(#B1488E, #486CB1);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Playfair Display";
+    z-index: 2;
+    position: absolute;
+    margin-top: 761px;
+    margin-left: 724px;
+    width: 151px;
+}
+
+/**Footer**/
+footer{
+    background-color: #4C7097;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 523px;
+}
+footer table{
+    margin-left: 200px;
+}
+footer table th{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+footer table td{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+.footer-un {
+    margin-left: 1062px;
+    margin-top: -270px;
+}
+.footer-un ul{
+    list-style-type: none;
+}
+.footer-un ul h2{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    color: white;
+}
+.footer-un ul #inscription{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.footer-un ul input:before{
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+}
+.footer-un ul input::after{
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+}
+.footer-un ul input{
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    background-color: #2B2E3C;
+    color: white;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 20px;
+}
+.footer-un ul input,textarea{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: inherit;
+}
+.footer-un ul .btn {
+    background: white;
+    color: black;
+    border-style: outset;
+    border-color: #000;
+    border-radius: 20px;
+    height: 37px;
+    width: 100px;
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    text-shadow: none;
+    margin-top: -5px;
+    margin-left: -40px;
+}
+.footer-un ul .btn:hover{
+    background: #734599;
+    color: white;
+    border-style: outset;
+    border-color: black;
+    height: 37px;
+    width: 100px;
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    text-shadow: none;
+    margin-top: -5px;
+    margin-left: -40px;
+}
+.footer-deux{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 472px;
+    margin-top: 222px;
+}
+.footer-deux #facebook {
+    margin-left: 345px;
+    margin-top: -30px;
+    z-index: 2;
+    position: absolute;
+}
+.footer-deux #twitter {
+    margin-top: -30px;
+    margin-left: 386px;
+    z-index: 2;
+    position: absolute;
+}
+.footer-deux #instagram{
+    margin-top: -30px;
+    margin-left: 427px;
+    z-index: 2;
+    position: absolute;
+    
+}
+.footer-deux #linkedin{
+    margin-top: -30px;
+    margin-left: 470px;
+    z-index: 2;
+    position: absolute;
+}
