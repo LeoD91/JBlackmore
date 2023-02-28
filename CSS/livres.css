@@ -420,3 +420,520 @@ footer table td{
     z-index: 2;
     position: absolute;
 }
+
+@media all and (max-width: 830px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    }
+    /**Header**/
+#container .navbar{
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+    background: url(../images/Menu-burger.png) no-repeat top left;
+    margin-left: 320px;
+    margin-top: -60px;
+    z-index: 2;
+    position: absolute;
+}
+/**Section un**/
+h1{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 57px;
+}
+.section-un{
+    background-image: url(../images/paysage_purple.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 168px;
+    margin-top: 48px;
+    background-color: #323C53;
+}
+.section-un .glassmorphisme {
+    background: rgba(133, 93, 122, 0.54);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(133, 93, 122, 0.39);
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+    width: 367px;
+    height: 313px;
+    margin-left: 10px;
+    padding: 12px;
+    margin-top: 59px;
+}
+.section-un .fond{
+    background-color: #323C53;
+}
+.section-un #infos{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 222px;
+    font-style: italic;
+    color: white;
+    margin-top: 5px;
+}
+.section-un #fleche-circle {
+    margin-left: 317px;
+    margin-top: -15px;
+    z-index: 2;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+.section-un audio {
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+    display: none;
+}
+.section-un figcaption{
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+}
+
+/**Section deux**/
+.section-deux{
+    background-color: #323C53;
+    margin-top: 323px;
+    padding-bottom: 427px;
+    margin-bottom: -123px;
+}
+.section-deux h2{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 50px;
+}
+.section-deux .bloc-un #bonbon{
+    width: 100%;
+    height: 157px;
+    filter: drop-shadow(5px 5px 10px #000) brightness(50%);
+    -webkit-filter: brightness(50%);
+    z-index: 1;
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 0px;
+    border-radius: 0px;
+}
+.section-deux .bloc-un #bonbon:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
+.section-deux .bloc-un #sous-titre-un{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 166px;
+    margin-top: 41px;
+}
+.section-deux #lorem-un{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 58px;
+    margin-top: 73px;
+    z-index: 2;
+    position: absolute;
+    color: white;
+}
+.section-deux #parution{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    margin-left: 59px;
+    margin-top: 132px;
+    z-index: 2;
+    position: absolute;
+}
+.section-deux #suite{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    color: white;
+    margin-left: 59px;
+    margin-top: 148px;
+    z-index: 2;
+    position: absolute;
+}
+.section-deux #fleche-un{
+    margin-left: 115px;
+    margin-top: 146px;
+    z-index: 2;
+    width: 20px;
+    position: absolute;
+    height: 20px;
+}
+.section-deux #btn-un{
+    list-style-type: none;
+    background: linear-gradient(#B1488E, #486CB1);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    margin-top: 127px;
+    margin-left: 244px;
+    z-index: 2;
+    position: absolute;
+}
+.section-deux .bloc-deux #chateau{
+    width: 100%;
+    height: 157px;
+    filter: drop-shadow(5px 5px 10px #000) brightness(50%);
+    -webkit-filter: brightness(50%);
+    z-index: 1;
+    position: absolute;
+    margin-top: 219px;
+    margin-left: 0px;
+    border-radius: 0px
+}
+.section-deux .bloc-deux #chateau:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
+.section-deux .bloc-deux #sous-titre-deux{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 2358px;
+}
+.section-deux .bloc-deux #lorem-deux{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 66px;
+    margin-top: 267px;
+    z-index: 2;
+    position: absolute;
+    color: white;
+}
+.section-deux .bloc-deux #parution-deux{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    margin-left: 67px;
+    margin-top: 327px;
+    z-index: 2;
+    position: absolute;
+}
+.section-deux .bloc-deux #suite-deux{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    color: white;
+    margin-left: 68px;
+    margin-top: 345px;
+    z-index: 2;
+    position: absolute;
+}
+.section-deux .bloc-deux #fleche-deux{
+    margin-left: 123px;
+    margin-top: 344px;
+    z-index: 2;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+.section-deux .bloc-deux #btn-deux{
+    list-style-type: none;
+    background: linear-gradient(#B1488E, #486CB1);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    margin-top: 325px;
+    margin-left: 244px;
+    z-index: 2;
+    position: absolute;
+}
+
+/**Section trois**/
+.section-trois{
+    background-color: #B1488E;
+    margin-top: -93px;
+    padding-bottom: 40px;
+}
+.section-trois #titre-deux{
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 28px;
+}
+.section-trois #fille{
+    width: 80px;
+    height: 80px;
+    margin-left: 34px;
+    margin-top: 26px;
+}
+.section-trois #perso h3 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 144px;
+    margin-top: -62px;
+}
+.section-trois #descriptif{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 145px;
+    margin-top: 4px;
+}
+.section-trois #info{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 146px;
+    font-style: italic;
+    margin-top: 4px;
+}
+.section-trois #fleche-circle {
+    margin-left: 240px;
+    margin-top: -13px;
+    z-index: 2;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+.section-trois #next {
+    margin-left: 353px;
+    margin-top: -116px;
+    width: 16px;
+    height: 16px;
+}
+
+/**Section quatre**/
+.section-quatre{
+    background-color: #323C53;
+    margin-top: -20px;
+    padding-bottom: 918px;
+}
+.section-quatre h2{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 60px;
+}
+.section-quatre .bloc-deux #bonbon{
+    width: 100%;
+    height: 133px;
+    filter: drop-shadow(5px 5px 10px #000) brightness(50%);
+    -webkit-filter: brightness(50%);
+    z-index: 1;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 0px;
+    border-radius: 0px;
+}
+.section-quatre .bloc-deux #bonbon:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
+.section-quatre .bloc-deux h3{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 141px;
+    margin-top: 49px;
+}
+.section-quatre .bloc-deux p{
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 128px;
+}
+.section-quatre .bloc-deux #fleche-c{
+    z-index: 2;
+    position: absolute;
+    margin-left: 357px;
+    margin-top: 128px;
+    width: 18px;
+    height: 18px;
+}
+.section-quatre .bloc-trois #neige{
+    width: 100%;
+    height: 133px;
+    filter: drop-shadow(5px 5px 10px #000) brightness(50%);
+    -webkit-filter: brightness(50%);
+    z-index: 1;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 0px;
+    border-radius: 0px;
+} 
+.section-quatre .bloc-trois #neige:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
+.section-quatre .bloc-trois h3{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 158px;
+    margin-top: 217px;
+}
+.section-quatre .bloc-trois #plus-info{
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 303px;
+}
+.section-quatre .bloc-trois #fleche-c2{
+    z-index: 2;
+    position: absolute;
+    margin-left: 357px;
+    margin-top: 302px;
+    width: 18px;
+    height: 18px;
+}
+
+/**Section cinq**/
+.section-cinq{
+    background-color: #3D715C;
+    margin-top: -506px;
+    padding-bottom: 77px;
+}
+.section-cinq h2{
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 24px;
+    margin-bottom: 40px;
+}
+.section-cinq img{
+    width: 921px;
+    height: 602px;
+}
+
+/**Footer**/
+footer{
+    background-color: #4C7097;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 190px;
+}
+footer table{
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+    background: url(../images/burger-blanc.png) no-repeat top left;
+    margin-left: 33px;
+    margin-top: -50px;
+}
+.footer-un {
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+}
+.footer-deux{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: white;
+    margin-left: 33px;
+    margin-top: -9px;
+}
+.footer-deux #facebook {
+    margin-left: 192px;
+    margin-top: -25px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+.footer-deux #twitter {
+    margin-top: -25px;
+    margin-left: 226px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+.footer-deux #instagram{
+    margin-top: -25px;
+    margin-left: 258px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    
+}
+.footer-deux #linkedin{
+    margin-top: -25px;
+    margin-left: 293px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+}
+
+
+
+@media all and (min-width: 1920px){
+    #burger{
+        visibility: hidden;
+    }
+}

@@ -12,7 +12,7 @@
     list-style-type: none;
     text-align: right;
     margin-top: -48px;
-    margin-right: 50px;
+    margin-right: -676px;
 }
 #container ul li{
     display: inline;
@@ -43,8 +43,9 @@
 /**Section deux**/
 .section-deux{
     background-color: #323C53;
-    margin-top: -20px;
+    margin-top: 0px;
     padding-bottom: 218px;
+    width: 100%;
 }
 .section-deux #actu{
     color: white;
@@ -62,6 +63,7 @@
 }
 button {
     list-style-type: none;
+    
     background: linear-gradient(#B1488E, #486CB1);
     color: #fff;
     border: none;
@@ -76,6 +78,9 @@ button {
     margin-left: 226px;
     width: 241px;
 }
+#butn-un{
+    text-decoration: none;
+}
 .section-deux .bloc{
     display: flex;
 }
@@ -89,6 +94,7 @@ button {
     background-color: #B1488E;
     margin-top: -20px;
     padding-bottom: 218px;
+    width: 100%;
 }
 .section-trois #titre-deux{
     color: black;
@@ -137,6 +143,7 @@ button {
     background-color: #323C53;
     margin-top: -20px;
     padding-bottom: 918px;
+    width: 100%;
 }
 .section-quatre h2{
     color: white;
@@ -228,11 +235,43 @@ button {
     margin-top: 590px;
 }
 
+/* Stylez le bouton de connexion*/
+.form-container .btn {
+    background-color: #B1488E;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+  /* Stylez le bouton pour annuler */
+  .form-container .cancel {
+    background-color: #486CB1;
+  }
+  /* Planez les effets pour les boutons */
+  .form-container .btn:hover,
+  .open-button:hover {
+    opacity: 1;
+  }
+   /* Masquez la forme Popup */
+   .form-popup {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-45%, 5%);
+    border: 2px solid #666;
+    z-index: 9;
+  }
+
 /**Section cinq**/
 .section-cinq{
     background-color: #3D715C;
     margin-top: -20px;
     padding-bottom: 211px;
+    width: 100%;
 }
 .section-cinq h2{
     color: black;
@@ -246,6 +285,8 @@ button {
     width: 921px;
     height: 602px;
 }
+
+
 
 /**Footer**/
 footer{
@@ -366,4 +407,335 @@ footer table td{
     margin-left: 470px;
     z-index: 2;
     position: absolute;
+}
+
+/**Responsive**/
+
+@media all and (max-width: 830px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    }
+    /**Header**/
+#container .navbar{
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+    background: url(../images/Menu-burger.png) no-repeat top left;
+    margin-left: 340px;
+    margin-top: -54px;
+}
+/**Section un**/
+.section-un{
+    background-color: #323C53;
+    background-image: url(../images/foret-enchantee.png);
+    width: 100%;
+    height: 168px;
+    text-align: center;
+    margin-top: 1px;
+}
+.section-un h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding-top: 49px;
+}
+/**Section deux**/
+.section-deux{
+    background-color: #323C53;
+    margin-top: -20px;
+    padding-bottom: 218px;
+}
+.section-deux #actu{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 26px;
+}
+.section-deux img {
+    width: 100%;
+    height: 474px;
+    margin-top: 21px;
+    margin-left: 0px;
+    border-radius: 0px;
+}
+.section-deux .bouton #butn-un{
+    list-style-type: none;
+    background: linear-gradient(#B1488E, #486CB1);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Playfair Display";
+    z-index: 2;
+    position: absolute;
+   
+    width: 151px;
+}
+.bouton ul {
+    position: relative;
+    top: -165px;
+    margin-left: -551px;
+    margin-top: 662px;
+    font-size: 13px;
+}
+/**Section trois**/
+.section-trois{
+    background-color: #B1488E;
+    margin-top: -307px;
+    padding-bottom: 40px;
+}
+.section-trois #titre-deux{
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 28px;
+}
+.section-trois #fille{
+    width: 80px;
+    height: 80px;
+    margin-left: 34px;
+    margin-top: 55px;
+}
+.section-trois #perso h3 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 144px;
+    margin-top: -62px;
+}
+.section-trois #descriptif{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 145px;
+    margin-top: 4px;
+}
+.section-trois #info{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 214px;
+    font-style: italic;
+}
+.section-trois #fleche-circle {
+    margin-left: 309px;
+    margin-top: -26px;
+    z-index: 2;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+.section-trois #next {
+    margin-left: 353px;
+    margin-top: -116px;
+    width: 16px;
+    height: 16px;
+}
+
+/**Section quatre**/
+.section-quatre{
+    background-color: #323C53;
+    margin-top: -20px;
+    padding-bottom: 918px;
+}
+.section-quatre h2{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 60px;
+}
+.section-quatre .bloc-deux #bonbon{
+    width: 100%;
+    height: 133px;
+    filter: drop-shadow(5px 5px 10px #000) brightness(50%);
+    -webkit-filter: brightness(50%);
+    z-index: 1;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 0px;
+    border-radius: 0px;
+}
+.section-quatre .bloc-deux #bonbon:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
+.section-quatre .bloc-deux h3{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 141px;
+    margin-top: 49px;
+}
+.section-quatre .bloc-deux p{
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 128px;
+}
+.section-quatre .bloc-deux #fleche-c{
+    z-index: 2;
+    position: absolute;
+    margin-left: 357px;
+    margin-top: 128px;
+    width: 18px;
+    height: 18px;
+}
+.section-quatre .bloc-trois #neige{
+    width: 100%;
+    height: 133px;
+    filter: drop-shadow(5px 5px 10px #000) brightness(50%);
+    -webkit-filter: brightness(50%);
+    z-index: 1;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 0px;
+    border-radius: 0px;
+} 
+.section-quatre .bloc-trois #neige:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
+.section-quatre .bloc-trois h3{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 158px;
+    margin-top: 217px;
+}
+.section-quatre .bloc-trois #plus-info{
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 303px;
+}
+.section-quatre .bloc-trois #fleche-c2{
+    z-index: 2;
+    position: absolute;
+    margin-left: 357px;
+    margin-top: 302px;
+    width: 18px;
+    height: 18px;
+}
+
+/**Section cinq**/
+.section-cinq{
+    background-color: #3D715C;
+    margin-top: -506px;
+    padding-bottom: 77px;
+}
+.section-cinq h2{
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 24px;
+    margin-bottom: 40px;
+}
+.section-cinq img{
+    width: 921px;
+    height: 602px;
+}
+
+/**Footer**/
+footer{
+    background-color: #4C7097;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 190px;
+}
+footer table{
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+    background: url(../images/burger-blanc.png) no-repeat top left;
+    margin-left: 33px;
+    margin-top: -50px;
+}
+.footer-un {
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+}
+.footer-deux{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: white;
+    margin-left: 33px;
+    margin-top: -9px;
+}
+.footer-deux #facebook {
+    margin-left: 192px;
+    margin-top: -25px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+.footer-deux #twitter {
+    margin-top: -25px;
+    margin-left: 226px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+.footer-deux #instagram{
+    margin-top: -25px;
+    margin-left: 258px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    
+}
+.footer-deux #linkedin{
+    margin-top: -25px;
+    margin-left: 293px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+}
+
+
+
+@media all and (min-width: 1920px){
+    #burger{
+        visibility: hidden;
+    }
 }

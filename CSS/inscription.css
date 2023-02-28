@@ -65,7 +65,7 @@ section div #password{
 }
 section div form{
     margin-top: 230px;
-    margin-left: 636px;
+    margin-left: 608px;
     z-index: 2;
     position: absolute;
 }
@@ -119,8 +119,8 @@ section div #butn-deux{
     font-family: "Playfair Display";
     z-index: 2;
     position: absolute;
-    margin-top: 564px;
-    margin-left: 724px;
+    margin-top: 38px;
+    margin-left: 135px;
     width: 151px;
 }
 #captchaBackground {
@@ -132,7 +132,7 @@ section div #butn-deux{
     justify-content: center;
     flex-direction: column;
     margin-top: -61px;
-    margin-left: 145px;
+    margin-left: 90px;
     }
 #captchaHeading {
     color: white;
@@ -146,7 +146,7 @@ section div #butn-deux{
     font-size: 30px;
     letter-spacing: 3px;
     color: #08e5ff;
-    margin-left: -121px;
+    margin-left: -33px;
     }
 .center {
     display: flex;
@@ -194,7 +194,7 @@ section div #butn-deux{
 }
 #textBox {
 height: 25px;
-margin-left: -110px;
+margin-left: -19px;
 }
 .incorrectCaptcha {
 color: #FF0000;
@@ -323,4 +323,286 @@ footer table td{
     margin-left: 470px;
     z-index: 2;
     position: absolute;
+}
+
+@media all and (max-width: 830px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    }
+
+    /**Header**/
+#container .navbar{
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+    background: url(../images/Menu-burger.png) no-repeat top left;
+    margin-left: 340px;
+    margin-top: -54px;
+    position: absolute;
+    z-index: 2;
+}
+/**Section**/
+section div{
+    background-image: url(../images/dragon1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 715px;
+    margin-top: 50px;
+}
+section div h2{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-top: 44px;
+    margin-left: 154px;
+}
+section div #identifiants{
+    padding: 0.7rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-top: 281px;
+    z-index: 2;
+    position: absolute;
+    margin-left: 703px;
+}
+section div #password{
+    padding: 0.7rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-top: 347px;
+    z-index: 2;
+    position: absolute;
+    margin-left: 703px;
+}
+section div form{
+    margin-top: 91px;
+    margin-left: 11px;
+    z-index: 2;
+    position: absolute;
+}
+section div table #titre-nom{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+section div table #titre-prenom{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+section div table #titre-mail{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+section div table #titre-phone{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+section div table input{
+    padding: 0.7rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+section div table #titre-mp{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+section div table #titre-mp-deux{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+section div #butn-deux{
+    list-style-type: none;
+    background: linear-gradient(#B1488E, #486CB1);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    margin-top: 423px;
+    margin-left: 125px;
+    z-index: 2;
+    position: absolute;
+}
+#captchaBackground {
+    height: 185px;
+    width: 100%;
+    background-color: #2d3748;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -195px;
+    margin-left: -4px;
+    }
+#captchaHeading {
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 11px;
+    font-size: 12px;
+    }
+#captcha {
+    margin-bottom: 1em;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #08e5ff;
+    margin-left: 3px;
+    }
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+#submitButton {
+    margin-bottom: 2em;
+    font-weight: bold;
+    list-style-type: none;
+    background: linear-gradient(#4C7097, #323C53);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Playfair Display";
+    z-index: 2;
+    position: absolute;
+    margin-top: -16px;
+    margin-left: 31px;
+}
+#refreshButton {
+    margin-bottom: 2em;
+    font-weight: bold;
+    list-style-type: none;
+    background: linear-gradient(#4C7097, #323C53);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Playfair Display";
+    z-index: 2;
+    position: absolute;
+    margin-top: -16px;
+    margin-left: 208px;
+}
+#textBox {
+    height: 78px;
+    margin-left: 9px;
+}
+.incorrectCaptcha {
+color: #FF0000;
+}
+.correctCaptcha {
+color: #7FFF00;
+}
+#output{
+    display: none;
+}
+
+/**Footer**/
+footer{
+    background-color: #4C7097;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 190px;
+}
+footer table{
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+    background: url(../images/burger-blanc.png) no-repeat top left;
+    margin-left: 33px;
+    margin-top: -50px;
+}
+.footer-un {
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+}
+.footer-deux{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: white;
+    margin-left: 33px;
+    margin-top: -9px;
+}
+.footer-deux #facebook {
+    margin-left: 192px;
+    margin-top: -25px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+.footer-deux #twitter {
+    margin-top: -25px;
+    margin-left: 226px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+.footer-deux #instagram{
+    margin-top: -25px;
+    margin-left: 258px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    
+}
+.footer-deux #linkedin{
+    margin-top: -25px;
+    margin-left: 293px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+}
+
+
+
+@media all and (min-width: 1920px){
+    #burger{
+        visibility: hidden;
+    }
 }

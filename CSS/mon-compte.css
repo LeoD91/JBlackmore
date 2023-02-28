@@ -27,7 +27,7 @@
 
 /**Section un**/
 .section-un{
-    background-image: url(../images/galaxie.jpg);
+    background-image: url(../images/foret-magique.jpg);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -299,4 +299,256 @@ footer table td{
     margin-left: 470px;
     z-index: 2;
     position: absolute;
+}
+
+
+@media all and (max-width: 830px) {
+    /**Header**/
+#container .navbar{
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+    background: url(../images/Menu-burger.png) no-repeat top left;
+    margin-left: 340px;
+    margin-top: -54px;
+    position: absolute;
+    z-index: 2;
+}
+/**Section un**/
+.section-un{
+    background-image: url(../images/foret-magique.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 127px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 50px;
+}
+.section-un #profil{
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 157px;
+}
+.section-un #parametres{
+    width: 32px;
+    height: 33px;
+    z-index: 2;
+    position: absolute;
+    margin-top: 127px;
+    margin-left: 897px;
+}
+
+/**Section deux**/
+.section-deux{
+    background-color: #323C53;
+    margin-top: -154px;
+    padding-bottom: 477px;
+}
+.section-deux h1{
+    color: white;
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 330px;
+}
+.section-deux h2{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-top: 12px;
+    margin-left: 18px;
+}
+.section-deux .bloc-un #bonbons{
+    width: 100%;
+    height: 178px;
+    filter: drop-shadow(5px 5px 10px #000) brightness(50%);
+    -webkit-filter: brightness(50%);
+    z-index: 1;
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 0px;
+    border-radius: 0px;
+}
+.section-deux .bloc-un #bonbons:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
+.section-deux .bloc-un h3{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 179px;
+    margin-top: 34px;
+}
+.section-deux .bloc-un #p-un br{
+    display: none;
+}
+.section-deux #p-un{
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 68px;
+}
+.section-deux .bloc-deux #chateau{
+    width: 100%;
+    height: 178px;
+    filter: drop-shadow(5px 5px 10px #000) brightness(50%);
+    -webkit-filter: brightness(50%);
+    z-index: 1;
+    position: absolute;
+    margin-top: 244px;
+    margin-left: 0px;
+    border-radius: 0px
+} 
+.section-deux .bloc-deux #chateau:hover{
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
+.section-deux .bloc-deux h3{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 186px;
+    margin-top: 255px;
+}
+.section-deux #p-deux{
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 17px;
+    margin-top: 293px;
+}
+.section-deux #butn-un{
+    list-style-type: none;
+    background: linear-gradient(#B1488E, #486CB1);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    margin-top: 147px;
+    margin-left: 179px;
+    z-index: 2;
+    position: absolute;
+}
+.section-deux #butn-deux{
+    list-style-type: none;
+    background: linear-gradient(#B1488E, #486CB1);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    margin-top: 370px;
+    margin-left: 181px;
+    z-index: 2;
+    position: absolute;
+}
+
+/**Footer**/
+footer{
+    background-color: #4C7097;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 190px;
+}
+footer table{
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+    background: url(../images/burger-blanc.png) no-repeat top left;
+    margin-left: 33px;
+    margin-top: -50px;
+}
+.footer-un {
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+}
+.footer-deux{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: white;
+    margin-left: 33px;
+    margin-top: -9px;
+}
+.footer-deux #facebook {
+    margin-left: 192px;
+    margin-top: -25px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+.footer-deux #twitter {
+    margin-top: -25px;
+    margin-left: 226px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+.footer-deux #instagram{
+    margin-top: -25px;
+    margin-left: 258px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    
+}
+.footer-deux #linkedin{
+    margin-top: -25px;
+    margin-left: 293px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+}
+
+
+
+@media all and (min-width: 1920px){
+    #burger{
+        visibility: hidden;
+    }
 }

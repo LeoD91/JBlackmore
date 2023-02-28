@@ -167,9 +167,10 @@
 }
 .section-trois .tableau-un form{
     margin-top: 50px;
-    margin-left: 636px;
+    margin-left: 573px;
     z-index: 2;
     position: absolute;
+    width: 31%;
 }
 .section-trois .tableau-un table #nom{
     font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
@@ -196,29 +197,19 @@
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 0.9em;
+    width: 100%;
 }
-.section-trois .tableau-deux form{
-    margin-top: 331px;
-    margin-left: 537px;
-    z-index: 2;
-    position: absolute;
-}
-.section-trois .tableau-deux #legend-deux{
-    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    color: white;
-    text-align: center;
-}
-.section-trois .tableau-deux table #message{
+.section-trois .tableau-un table #message{
     font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
 }
-.section-trois .tableau-deux table textarea{
+.section-trois .tableau-un table textarea{
     padding: 0.7rem 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 0.9em;
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
 }
 .section-trois #butn-un{
     list-style-type: none;
@@ -234,8 +225,8 @@
     font-family: "Playfair Display";
     z-index: 2;
     position: absolute;
-    margin-top: 761px;
-    margin-left: 724px;
+    margin-top: 38px;
+    margin-left: 176px;
     width: 151px;
 }
 
@@ -358,4 +349,335 @@ footer table td{
     margin-left: 470px;
     z-index: 2;
     position: absolute;
+}
+
+
+/**Responsive**/
+@media all and (max-width: 830px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    }
+    /**Header**/
+#container .navbar{
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+    background: url(../images/Menu-burger.png) no-repeat top left;
+    margin-left: 320px;
+    margin-top: -60px;
+    z-index: 2;
+    position: absolute;
+}
+/**Section un**/
+.section-un{
+    background-color: #323C53;
+    width: 100%;
+    height: 163px;
+    margin-top: 213px;
+}
+.section-un h1{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-top: 25px;
+    margin-left: 81px;
+    position: absolute;
+    z-index: 2;
+}
+.section-un p{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 67px;
+    position: absolute;
+    z-index: 2;
+}
+.section-un img{
+    width: 100%;
+    height: 197px;
+    margin-top: -445px;
+    position: relative;
+    z-index: 2;
+    margin-left: -4px;
+}
+.section-un br{
+    display: none;
+}
+
+/**Section deux**/
+.section-deux{
+    background-color: #B1488E;
+    margin-top: -51px;
+    margin-bottom: -478px;
+}
+.section-deux #jupiter{
+    display: none;
+}
+.section-deux #equipe{
+    display: none;
+}
+.section-deux h2{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    margin-top: 26px;
+    margin-left: 117px;
+}
+.section-deux #p-un{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-left: 14px;
+    margin-top: 25px;
+}
+.section-deux #p-deux{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-left: 1007px;
+    margin-top: 20px;
+}
+.section-deux .ketty #img-ketty{
+    width: 80px;
+    height: 80px;
+    margin-top: -568px;
+    margin-left: 21px;
+    position: absolute;
+    z-index: 2;
+}
+.section-deux .ketty #p-trois{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin-left: 112px;
+    margin-top: -553px;
+    position: absolute;
+    z-index: 2;
+}
+.section-deux .ketty #p-quatre{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+    margin-left: 109px;
+    margin-top: -528px;
+    position: absolute;
+    z-index: 2;
+}
+.section-deux .illustratrice #business{
+    width: 80px;
+    height: 80px;
+    margin-top: -423px;
+    margin-left: 18px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 46px;
+}
+.section-deux .illustratrice #p-cinq{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin-left: 113px;
+    margin-top: -417px;
+    position: absolute;
+    z-index: 2;
+}
+.section-deux .illustratrice #p-six{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+    margin-left: 112px;
+    margin-top: -394px;
+    position: absolute;
+    z-index: 2;
+}
+
+/**Section trois**/
+.section-trois{
+    background-color: #323C53;
+    width: 100%;
+    height: 768px;
+    margin-top: -1px;
+}
+.section-trois img{
+    width: 100%;
+    height: 133px;
+    margin-top: 50px;
+    margin-left: -5px;
+}
+.section-trois h2{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: -170px;
+    text-align: center;
+}
+.section-trois .tableau-un #legend-un{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+.section-trois .tableau-un form{
+    margin-top: 50px;
+    margin-left: 534px;
+    z-index: 2;
+    position: absolute;
+    width: 30%
+}
+.section-trois .tableau-un table #nom{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+.section-trois .tableau-un table #prenom{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+.section-trois .tableau-un table #email{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+.section-trois .tableau-un table #phone{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+.section-trois .tableau-un table input{
+    padding: 0.7rem 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+    width: 177%;
+}
+.section-trois .tableau-deux form{
+    margin-top: 406px;
+    margin-left: 36px;
+    z-index: 2;
+    position: absolute;
+}
+.section-trois .tableau-deux #legend-deux{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+.section-trois .tableau-deux table #message{
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+.section-trois .tableau-deux table textarea{
+    padding: 0.7rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+.section-trois #butn-un{
+    list-style-type: none;
+    background: linear-gradient(#B1488E, #486CB1);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    z-index: 2;
+    position: absolute;
+    margin-top: 636px;
+    margin-left: 108px;
+}
+/**Footer**/
+footer{
+    background-color: #4C7097;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 190px;
+}
+footer table{
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+    background: url(../images/burger-blanc.png) no-repeat top left;
+    margin-left: 33px;
+    margin-top: -50px;
+}
+.footer-un {
+    display : inline-block;
+	width : 100px;
+	height : 30px;
+	overflow : hidden;
+	text-align : left;
+	text-indent : -9999px;
+	white-space : nowrap;
+}
+.footer-deux{
+    font-family: 'Alice', Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: white;
+    margin-left: 33px;
+    margin-top: -9px;
+}
+.footer-deux #facebook {
+    margin-left: 192px;
+    margin-top: -16px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+.footer-deux #twitter {
+    margin-top: -16px;
+    margin-left: 226px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+.footer-deux #instagram{
+    margin-top: -16px;
+    margin-left: 258px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    
+}
+.footer-deux #linkedin{
+    margin-top: -16px;
+    margin-left: 293px;
+    z-index: 2;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+}
+
+
+
+@media all and (min-width: 1920px){
+    #burger{
+        visibility: hidden;
+    }
 }

@@ -14,11 +14,11 @@
             <img src="images/logo.png" alt="Logo du site">
             <div id="container">
                 <ul class="navbar">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Actualité</a></li>
-                    <li><a href="#">Livres</a></li>
-                    <li><a href="#">A propos</a></li>
-                    <li><a href="#"><img src="images/profil2.svg" alt="Profil"></a> </li>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html">Actualité</a></li>
+                    <li><a href="livres.html">Livres</a></li>
+                    <li><a href="bio.html">A propos</a></li>
+                    <li><a href="connexion.html"><img src="images/profil2.svg" alt="Profil"></a> </li>
                 </ul>
             </div>
         </nav>
@@ -54,44 +54,37 @@
           <img src="images/formulaire.jpg" alt="Formulaire">
           <h2>Formulaire De Contact</h2>
           <div class="tableau-un">
-            <form action="" method="get">
+            <form action="formulaire.php" method="post">
                 <fieldset>
-                    <legend id="legend-un">Vos Coordonnées</legend>
+                    <legend id="legend-un">Vos Coordonnées et votre message</legend>
                     <table cellspacing="5">
                         <tr align="left">
                             <th id="nom">Nom*</th>
-                            <td><input type="text" name="nom" size="20" maxlength="20" placeholder="Nom"></td>
+                            <td><input type="text" name="Name" size="20" maxlength="20" placeholder="Nom" id="Name"></td>
                         </tr>
                         <tr align="left">
                             <th id="prenom">Prénom*</th>
-                            <td><input type="text" name="prenom" size="20" maxlength="20" placeholder="Prénom"></td>
+                            <td><input type="text" name="Prenom" size="20" maxlength="20" placeholder="Prénom" id="Prenom"></td>
                         </tr>
                         <tr align="left">
                             <th id="email">Email*</th>
-                            <td><input type="text" name="adresse" size="20" maxlength="20" placeholder="Email"></td>
+                            <td><input type="text" name="Mail" size="20" maxlength="20" placeholder="Email" id="Mail"></td>
                         </tr>
                         <tr align="left">
                             <th id="phone">Téléphone*</th>
-                            <td><input type="text" name="adresse" size="20" maxlength="20" placeholder="Téléphone"></td>
+                            <td><input type="text" name="Phone" size="20" maxlength="20" placeholder="Téléphone" id="Phone"></td>
                         </tr>
-                    </table>
-                </fieldset>
-            </form>
-          </div>
-          <div class="tableau-deux">
-            <form action="" method="get">
-                <fieldset>
-                    <legend id="legend-deux">Votre message</legend>
-                    <table cellspacing="5">
                         <tr align="left">
-                            <th id="message">Message*</th>
-                            <td><textarea name="nom_champ" id="message" cols="30" rows="10" placeholder="Votre message"></textarea></td>
+                            <th id="message" style="font-family: Playfair Display; font-size: 20px; color: white;">Message*</th>
+                            <td><textarea name="Message" cols="30" rows="10" placeholder="Votre message" id="Message"></textarea></td>
+                        </tr>
+                        <tr align="left">
+                            <td><button type="submit" name="nom_champ" id="butn-un">Envoyer</button></td>
                         </tr>
                     </table>
                 </fieldset>
             </form>
           </div>
-          <button type="button" name="nom_champ" id="butn-un">Envoyer</button>
     </section>
     <!--Footer-->
     <footer>
